@@ -28,19 +28,19 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm">
-              <li className="flex items-center gap-2">📞 +91 8984056080</li>
-              <li className="flex items-center gap-2">✉️ hello@bharatyatra.com</li>
-              <li className="flex items-center gap-2">📍 Connaught Place, Bhubanswar</li>
+              <li className="flex items-center gap-2"><i className="fas fa-phone"></i> +91 8984056080</li>
+              <li className="flex items-center gap-2"><i className="fas fa-envelope"></i> hello@bharatyatra.com</li>
+              <li className="flex items-center gap-2"><i className="fas fa-location-dot"></i> Connaught Place, Bhubanswar</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4 mb-4 text-xl">
-              <span className="hover:text-orange-400 cursor-pointer">📘</span>
-              <span className="hover:text-orange-400 cursor-pointer">🐦</span>
-              <span className="hover:text-orange-400 cursor-pointer">📷</span>
-              <span className="hover:text-orange-400 cursor-pointer">🎥</span>
+              <span className="hover:text-orange-400 cursor-pointer"><i className="fa-brands fa-square-facebook"></i></span>
+              <span className="hover:text-orange-400 cursor-pointer"><i className="fa-brands fa-square-instagram"></i></span>
+              <span className="hover:text-orange-400 cursor-pointer"><i className="fa-brands fa-square-linkedin"></i></span>
+              <span className="hover:text-orange-400 cursor-pointer"><i className="fa-brands fa-square-x-twitter"></i></span>
             </div>
             <p className="text-xs mt-4">© 2025 BharatYatra. All rights reserved.</p>
           </div>
