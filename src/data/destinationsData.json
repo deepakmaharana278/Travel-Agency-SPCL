@@ -1,0 +1,126 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Kerala Backwaters",
+      "price": 24999,
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944",
+      "region": "South",
+      "duration": "4-5 days",
+      "bestTime": "October to March",
+      "description": "Tranquil backwaters, houseboat stays, and authentic Kerala cuisine.",
+      "highlights": ["Houseboat stay", "Alleppey backwaters", "Ayurvedic massage"],
+      "rating": 4.8,
+      "packageId": 2
+    },
+    {
+      "id": 2,
+      "name": "Jaipur, Rajasthan",
+      "price": 18999,
+      "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33",
+      "region": "North",
+      "duration": "3-4 days",
+      "bestTime": "November to February",
+      "description": "Pink City with majestic forts and palaces.",
+      "highlights": ["Amber Fort", "Hawa Mahal", "City Palace"],
+      "rating": 4.7,
+      "packageId": 1
+    },
+    {
+      "id": 3,
+      "name": "Goa Beaches",
+      "price": 16999,
+      "image": "https://images.unsplash.com/photo-1560179406-1c6c60e0dc76",
+      "region": "West",
+      "duration": "3-5 days",
+      "bestTime": "November to February",
+      "description": "Sun, sand, and nightlife.",
+      "highlights": ["Baga Beach", "Water sports", "Night markets"],
+      "rating": 4.6,
+      "packageId": 4
+    },
+    {
+      "id": 4,
+      "name": "Manali, Himachal",
+      "price": 18999,
+      "image": "https://images.unsplash.com/photo-1593181629936-11c609b8db9b",
+      "region": "North",
+      "duration": "5-6 days",
+      "bestTime": "March to June",
+      "description": "Snow peaks and adventure sports.",
+      "highlights": ["Solang Valley", "Rohtang Pass", "Paragliding"],
+      "rating": 4.7,
+      "packageId": 3
+    },
+    {
+      "id": 5,
+      "name": "Varanasi, UP",
+      "price": 14999,
+      "image": "https://images.unsplash.com/photo-1706186839147-0d708602587b",
+      "region": "East",
+      "duration": "3-4 days",
+      "bestTime": "October to March",
+      "description": "Spiritual city on the Ganges.",
+      "highlights": ["Ganga Aarti", "Boat ride", "Temples"],
+      "rating": 4.9,
+      "packageId": 1
+    },
+    {
+      "id": 6,
+      "name": "Ladakh",
+      "price": 42999,
+      "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2",
+      "region": "North",
+      "duration": "7-9 days",
+      "bestTime": "June to September",
+      "description": "Cold desert and scenic landscapes.",
+      "highlights": ["Pangong Lake", "Nubra Valley", "Khardung La"],
+      "rating": 4.9,
+      "packageId": 6
+    },
+    {
+      "id": 7,
+      "name": "Andaman Islands",
+      "price": 35999,
+      "image": "https://images.unsplash.com/photo-1545762374-d18079617da8",
+      "region": "South",
+      "duration": "5-7 days",
+      "bestTime": "October to May",
+      "description": "Crystal clear beaches and islands.",
+      "highlights": ["Scuba diving", "Radhanagar Beach"],
+      "rating": 4.8,
+      "packageId": 8
+    },
+    {
+      "id": 8,
+      "name": "Udaipur",
+      "price": 19999,
+      "image": "https://images.unsplash.com/photo-1589901164570-f9de6556e1c1",
+      "region": "North",
+      "duration": "3-4 days",
+      "bestTime": "October to March",
+      "description": "City of lakes and royal palaces.",
+      "highlights": ["Lake Pichola", "City Palace"],
+      "rating": 4.7,
+      "packageId": 10
+    },
+    {
+      "id": 9,
+      "name": "Maldives",
+      "price": 59999,
+      "image": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b",
+      "region": "International",
+      "duration": "4-6 days",
+      "bestTime": "November to April",
+      "description": "Crystal-clear turquoise waters, luxury overwater villas, and white sandy beaches.",
+      "highlights": [
+        "Overwater villas",
+        "Snorkeling & scuba diving",
+        "Private island resorts",
+        "Sunset cruises"
+      ],
+      "rating": 4.9,
+      "packageId": 11
+    }
+  ]
+}

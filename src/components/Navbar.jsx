@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate()
 
   const navLinks = [
     { path: '/', label: 'Home' },
@@ -39,7 +40,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-5 rounded-lg transition duration-300 shadow-md">
+            <button onClick={()=>navigate('/packages')} className="bg-orange-500 hover:bg-orange-600 cursor-pointer text-white font-semibold py-2 px-5 rounded-lg transition duration-300 shadow-md">
               Book Now
             </button>
           </div>
@@ -67,7 +68,7 @@ const Navbar = () => {
                 {link.label}
               </NavLink>
             ))}
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-5 rounded-lg w-full text-center mt-3">
+            <button onClick={()=>navigate('/packages')} className="bg-orange-500 hover:bg-orange-600 cursor-pointer text-white font-semibold py-2 px-5 rounded-lg w-full text-center mt-3">
               Book Now
             </button>
           </div>
