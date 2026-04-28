@@ -46,7 +46,7 @@ const DestinationDetail = () => {
                 <div className="flex justify-between"><span className="text-gray-600">Duration</span><span className="font-semibold">{destination.duration}</span></div>
                 <div className="flex justify-between"><span className="text-gray-600">Best Time</span><span className="font-semibold">{destination.bestTime}</span></div>
               </div>
-              <button onClick={() => navigate(`/package/${destination.id}`)} className="bg-orange-500 hover:bg-orange-600 cursor-pointer text-white font-semibold py-3 px-6 rounded-xl w-full">Book Now</button>
+              <button onClick={() => navigate(`/package/${destination.packageId}`)} className="bg-orange-500 hover:bg-orange-600 cursor-pointer text-white font-semibold py-3 px-6 rounded-xl w-full">Book Now</button>
               <div className="mt-4 pt-4 border-t space-y-2 text-sm text-gray-500">
                 <div><i className='fas fa-phone'></i> Need help? Call +91 98765 43210</div>
                 <div><i className='fas fa-envelope'></i> hello@bharatyatra.com</div>
